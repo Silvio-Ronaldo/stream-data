@@ -7,12 +7,7 @@ export const Container = styled(MotiView)`
   flex: 1;
 `;
 
-export const Content = styled.ScrollView.attrs({
-  contentContainerStyle: {
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-})`
+export const Content = styled.View`
   flex: 1;
   background-color: ${props => props.theme.colors.black};
 `;

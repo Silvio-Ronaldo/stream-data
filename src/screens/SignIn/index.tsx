@@ -25,13 +25,10 @@ export function SignIn() {
   const { signIn, isLoggingIn } = useAuth();
   const theme = useTheme();
 
-  // creates a function to handle sign in
   async function handleSignIn() {
     try {
-      // try to call and wait signIn
       await signIn();
     } catch (error) {
-      // if fails, display an Alert with the title "Erro SignIn" and message "Ocorreu um erro ao tentar logar no app"
       Alert.alert('Erro SignIn', 'Ocorreu um erro ao tentar logar no app');
     }
   }
@@ -53,7 +50,7 @@ export function SignIn() {
     >
       <Content>
         <LoginBanner>
-          <LoginBannerImg width="100%" />
+          <LoginBannerImg width="100%" height={250} />
         </LoginBanner>
 
         <LoginInfo>
