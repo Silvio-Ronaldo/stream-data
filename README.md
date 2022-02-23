@@ -43,9 +43,7 @@
 
 <h2>🖥️ Demonstration</h2>
 <p align="center">
-  <img src="./assets/save-pass-01.gif" alt="SavePass Demo" height="500" />
-  <img src="./assets/save-pass-02.gif" alt="SavePass Demo" height="500" />
-  <img src="./assets/save-pass-03.gif" alt="SavePass Demo" height="500" />
+  <img src="./assets/stream-data-01.gif" alt="StreamData Demo" height="500" />
 </p>
  
 
